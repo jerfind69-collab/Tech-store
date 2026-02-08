@@ -1,0 +1,47 @@
+/* Cyberpunk CSS Styles */
+body {
+    background-color: #0f0f0f;
+    color: #00ffcc;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 5px #ff00aa, 0 0 10px #00ffcc;
+}
+
+header {
+    background: linear-gradient(90deg, #ff0099, #493240);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff00aa;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #ff00aa;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -1px 10px rgba(255, 0, 255, 0.5);
+}
+
+.button {
+    background-color: #ff00aa;
+    border: 1px solid #00ffcc;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #00ffcc;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #00ffcc;
+}
